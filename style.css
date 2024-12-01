@@ -1,0 +1,43 @@
+
+#tempbox{
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    border: 4px solid #0000005d;
+    border-radius: 10px;
+    width: 335px;
+    height: 390px;
+    margin: auto;
+    transition: background-color 0.27s;
+}
+#tempbox:hover{
+    background-color: rgba(149, 191, 255, 0.308);
+}
+
+.item{
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#submit{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: background-color 0.27s;
+    border: 1px solid rgba(128, 128, 128, 0.377);
+    border-radius: 30px;
+
+}
+
+#submit:hover{
+    font-weight: bolder;
+    background-color: rgba(119, 173, 255, 0.514);
+}
